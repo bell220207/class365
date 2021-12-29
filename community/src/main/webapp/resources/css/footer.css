@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/*푸터*/
+.footer{
+	padding: 25px 0;
+	text-align: center;
+}
+.footer ul { margin-bottom: 20px; }
+.footer li{
+	display: inline;
+	padding: 0px 7px 0px 10px;
+}

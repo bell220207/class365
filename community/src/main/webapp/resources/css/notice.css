@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+
+/*noticeList*/
+
+.noticeList-form, .noticeRegist-form, .noticeDetail-form {
+    width: 900px;
+    margin: 50px auto 50px auto;
+    padding: 20px;
+    text-align: center;
+    border: none;    
+}
+ 
+.titlebox {
+	width: 250px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	margin: 0px auto 70px auto;
+	border-top: 1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+	
+}
+
+/*---검색버튼--- */
+.search-wrap {
+	overflow: hidden; /*부모요소에 히든 */
+	margin-bottom: 20px;
+}
+
+
+.search-btn, .search-input, .search-select {
+	float: right; /*우측 플로팅 */
+	border: 1px solid gray;
+	height: 29px;
+	padding: 5px;
+	margin-left: 5px;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+.search-input {	width: 140px; }
+
+.search-select { width: 80px; }
+
+table.noticeTable {
+	width: 850px;
+	margin: 10px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+    line-height: 1.5;
+    
+    /*표 전체 아래*/
+    border-bottom: 1px solid #ccc;
+}
+
+table.noticeTable thead { margin: 0; }
+
+table.noticeTable thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    /* 카테고리 구분선*/
+    border-bottom: 1px solid gray;
+}
+
+table.noticeTable tbody tr th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    
+    /*글번호 아래 구분선*/
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;    
+}
+
+table.noticeTable tbody tr td {
+    width: 200px;
+    padding: 10px;
+    vertical-align: top;
+	
+	/*내용 줄이기*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-bottom: 1px solid #ccc;
+}
+
+table.noticeTable tbody tr td a
+, table.noticeTable tbody tr td a:hover{ color: black; }
+
+/*등록버튼 상위태그*/
+.regist{ overflow:hidden; }
+
+/*등록버튼*/
+.registBtn{
+	border: none;
+	padding: 7px;
+	margin-right: 10px;
+	float: right;
+}
+
+.text-center {
+	float: center; /*오른쪽으로 쌓아서 우측정렬 시킨다*/
+	border-radius: 0; /*윤곽 0*/
+	padding: 5px 10px; /*버튼 패딩을 페이지네이션과 맞춘다*/
+}
+
+.pagination {
+	margin: 0; /*페이지 네이션의 기본 마진 0*/
+	padding: 5px 10px;
+}
+
+.pagination li.active {
+	background: none;
+	padding: 0;
+	color: black;
+	font-weight: bold;	
+}
+
+
+/*공지사항 등록 쪽*/
+label{ margin: 5px 0px 5px 5px;	 }
+
+.r-control{
+	width: 860px;
+	margin-bottom: 15px;
+	border: 1px solid #eee;	
+}
+
+.lb-control{
+	display: block;
+    text-align: left;	
+}
+
+.ip-control{
+	display: block;
+    position: relative;
+    width: 100%;
+    border: 1px solid #eee;
+    font-size: 15px;
+}
+
+#content{
+	height: 300px;
+	resize: none;
+}
+
+.noticeRegist-form>form{ display: inline-block; }
+
+input{ border: 1px solid #eee; }
+
+

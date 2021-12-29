@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*전체 레이아웃*/
+#wrap { }
+#header { height: 145px; }
+#contents { }		
+#cont_nav { border-bottom: 1px solid #eee; }
+#footer { border-top: 1px solid #eee; }
+
+
+/*컨텐츠 레이아웃*/
+#cont_nav {	margin-top: 30px; }
+#cont_cont { padding: 20px 20px; }
+
+
+/*main이랑 이어짐*/
+.container{
+	width:990px;
+	margin: 0 auto;
+	height: inherit;
+	
+}
